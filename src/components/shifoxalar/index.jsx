@@ -32,6 +32,7 @@ const Shifoxonalar = () => {
   // Hospital data:
   const [hospitals, setHospitals] = useState([]);
   const [service, setService] = useState([]);
+  console.log(hospitals, service);
 
   const fetchHospitals = async (clinikaId) => {
     try {

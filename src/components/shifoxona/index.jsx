@@ -1,19 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./style.css";
 import Xizmatlar from "../xizmatlar";
-import { useNavigate } from "react-router";
 
 const Shifoxona = () => {
-  const navigate = useNavigate();
   const storedHospitals = localStorage.getItem("hospitals");
   const hospitals = JSON.parse(storedHospitals);
 
   const [doctor, setDoctor] = useState([]);
-  useEffect(() => {
-    setDoctor(hospitals);
-  }, []);
+  setDoctor(hospitals);
 
-  console.log(hospitals);
   return (
     <>
       <section className="shifo-header">

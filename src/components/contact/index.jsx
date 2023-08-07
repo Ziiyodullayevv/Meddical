@@ -1,12 +1,8 @@
 import React from "react";
 import "./style.css";
-import { useNavigate } from "react-router-dom";
 import Touch from "../touch";
-import Book from "../book";
-import Doctors from "../doctor";
 
 const Contact = () => {
-  const navigate = useNavigate();
   return (
     <div>
       <section className="aloqa">
@@ -33,6 +29,7 @@ const Contact = () => {
                 height: "450px",
                 border: 0,
               }}
+              title="Google Maps Embed"
             ></iframe>
           </div>
         </div>
@@ -41,7 +38,5 @@ const Contact = () => {
     </div>
   );
 };
-
-// export default Contact;
 
 export default Contact;

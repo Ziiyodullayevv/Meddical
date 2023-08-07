@@ -10,13 +10,10 @@ const Shifokorlar = () => {
 
   // Hospitals data:
   const [items, setItems] = useState([]);
-  const [data, setData] = useState([]);
   const [visible, setVisible] = useState(6);
 
   const navigate = useNavigate();
-  useEffect(() => {
-    setItems(doctors);
-  }, []);
+  setItems(doctors);
 
   const showMoreItems = () => {
     setVisible((prevValue) => prevValue + 3);

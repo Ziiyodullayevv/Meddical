@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./style.css";
 import { useNavigate } from "react-router";
 import axios from "axios";
@@ -11,11 +11,9 @@ const Xizmatlar = () => {
   const [service, setService] = useState([]);
   const [data, setData] = useState([]);
 
-  console.log(data, "doc");
+  console.log(data);
 
-  useEffect(() => {
-    setService(services);
-  }, []);
+  setService(services);
 
   // data :
 
@@ -53,7 +51,6 @@ const Xizmatlar = () => {
     } catch (error) {
       console.error("Error fetching hospitals:", error);
     }
-    // navigate("");
   };
 
   const navigate = useNavigate();
