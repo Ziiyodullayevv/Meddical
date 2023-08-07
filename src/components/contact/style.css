@@ -1,0 +1,41 @@
+.aloqa {
+  background-image: url("../../assets/images/contact-banner.jpg");
+  height: 250px;
+}
+
+.aloqaWrap {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.texts p {
+  color: #1f2b6c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.texts h2 {
+  font-family: var(--Yeseva);
+  color: var(--c3) !important;
+  font-size: 48px !important;
+  font-weight: 400;
+}
+.shadow {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.438);
+}
+
+.maps {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}

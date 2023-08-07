@@ -1,0 +1,63 @@
+.doctors {
+  padding-top: 70px;
+}
+
+.doctors-title {
+  text-align: center;
+}
+
+.xizmatlar {
+  margin-top: 70px;
+}
+
+.week {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.week-wrapper {
+  margin-top: 10px;
+}
+
+span {
+  color: var(--c3);
+}
+
+.week p {
+  text-align: center;
+  border-radius: 2px;
+  font-size: 12px !important;
+  color: var(--c4) !important;
+  background-color: var(--c3);
+  padding: 0px;
+  width: 100%;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.width {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: start;
+  height: 180px;
+  padding: 10px 10px;
+}
+
+.light {
+  opacity: 1;
+}
+
+.top-10 {
+  margin-top: 4px;
+}
+
+.dark {
+  opacity: 0.6;
+}

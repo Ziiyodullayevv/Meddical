@@ -1,0 +1,118 @@
+/* Shifoxonalar Header  */
+
+.shifo-header {
+  height: 250px;
+  background-image: url("../../assets/images/Shifoxonalar-banner.png");
+}
+
+.shadow {
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.473);
+}
+
+.shifo-header__title {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shifo-header__title p {
+  color: var(--c3);
+  /* Body 2 */
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
+}
+
+.shifo-header__title p:first-child {
+  cursor: pointer;
+}
+
+.shifo-header__title h2 {
+  color: var(--c3);
+  font-family: var(--Yeseva);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Shifoxonalar Card  */
+
+.shifoxonalar-cards {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.shifoxonalar-card {
+  border-radius: 5px;
+  background-color: var(--c4);
+}
+
+.card-image {
+  height: 320px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  object-fit: contain !important;
+  background-color: red;
+}
+
+.card-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.card-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  height: 140px;
+}
+
+.card-description h4 {
+  color: var(--c3);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.88px;
+  text-transform: uppercase;
+}
+
+.card-description p {
+  color: var(--c3);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+}
+
+.shifoxonalar-btn {
+  height: 46px;
+  background-color: var(--c3);
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 0 0 5px 5px;
+  color: var(--c4);
+  font-family: var(--WorkSans);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  cursor: pointer;
+}
+
+.length {
+  margin-top: 20px;
+  text-align: center;
+}
